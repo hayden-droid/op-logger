@@ -5,13 +5,15 @@ Credits to Web Dev Simplified for the UI and most of it. This project is really 
 ## Prerequisites
 Well you need a few things first
 - NodeJS
+- MongoDB (download it in their website it's really easy)
 - Ngrok (I'll show you how to download that)
 It would also be great if you were familiar with the terminal, because we will be using it.
 ## How to run it?
 1. You download this repo
 2. You extract it
 3. You open your terminal at the exact path the files are in
-4. You run: <code>node server.js</code>
+4. You run this command: <code>npm init -y && npm i express express-useragent mongoose geoip-lite ejs shortid</code>
+4. You run: <code>node server.js</code> or <code>nodemon server.js</code> if you have nodemon installed
 5. You download ngrok: https://ngrok.com/download
 6. Extract it and open the terminal (another terminal window) on the path with ngrok
 7. you run the command <code>ngrok http 5000</code>
@@ -25,4 +27,4 @@ Then, you copy the ngrok url that is given and open it on your browser of choice
 When your victim clicks this link, you will get his ip, user agent, location and language. The user agent gives a ton of info btw. All of this will print out on the first terminal, the one you used to run the code in this repo.
 
 I hope i made it easy!
-
+If you have any bugs, please make an issue. I will fix them if i can.
