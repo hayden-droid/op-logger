@@ -2,7 +2,7 @@
 
 ## Update
 I'll try to make it terminal based. The only thing is i don't have a Mac to test the mac version. I'll also try to make it so that it downloads everything needed for you. It would of course be harder for Windows so maybe for Windows i'll make a Wizard Install that installs ngrok, mongodb and nodejs for you in C#.
-For Mac and Linux, the install script will be in Python because i hate bash language.
+For Mac and Linux, the install script will be in Python because i hate bash language. In the next update, you will probably need Python (already in Mac and Linux) but maybe i'll install it via the installer too.
 
 ## Credits
 Credits to Web Dev Simplified for the UI and most of it. This project is really his url shortener but modified with an ip logger.
